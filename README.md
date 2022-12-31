@@ -18,11 +18,11 @@ This game also implements some additional features such as:
 2. Table of records;
 
 3. Multiple game levels:
-● Rectangular field 10 by 10, number of minutes 10;
-● Rectangular field 16 by 16, number of minutes 40;
-● Rectangular field 30 by 16, number of minutes 99;
-● A round field inscribed in a 15 by 15 square, number 25;
-● A triangular field inscribed in a 19 by 19 square, number of minutes 30;
+- Rectangular field 10 by 10, number of minutes 10;
+- Rectangular field 16 by 16, number of minutes 40;
+- Rectangular field 30 by 16, number of minutes 99;
+- A round field inscribed in a 15 by 15 square, number 25;
+- A triangular field inscribed in a 19 by 19 square, number of minutes 30;
 
 4. Field randomizer (new mined coordinates each time);
 
