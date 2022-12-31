@@ -1,7 +1,7 @@
 # Minesweeper
 ## Introduction
 Minesweeper is a well-known game that many of us have played on the computer. 
-The main goal of the game is to find mines on the field and mark them with flags. The game ends if all the mines have been marked, or if the player opens the cage under which the bomb is hiding. The minesweeper can make only once mistake😈
+The main goal of the game is to find mines on the field and mark them with flags. The game ends if all the mines have been marked, or if the player opens the cage under which the bomb is hiding. The minesweeper can make only once mistake.
 
 The game starts at the moment when you click on one of the cells of the field. If you managed not to run into a mine, then a small area of the field opens around this cell, marked with numbers at the edges. 
 The number X that opens in the cell implies that a bomb is hidden in X of the eight cells of the field surrounding it. If all except one of the cells with this numerical value are open around the cell, then an explosive object is waiting there.
