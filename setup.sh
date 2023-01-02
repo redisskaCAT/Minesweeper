@@ -1,5 +1,5 @@
 mkdir build
 cd build/
 cmake ../
-make snake
+make minesweeper
 clear
