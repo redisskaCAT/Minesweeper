@@ -7,7 +7,7 @@ The game starts at the moment when you click on one of the cells of the field. I
 The number X that opens in the cell implies that a bomb is hidden in X of the eight cells of the field surrounding it. If all except one of the cells with this numerical value are open around the cell, then an explosive object is waiting there.
 
 ## Showcase
-<img src='https://github.com/redisskaCAT/minesweeper/blob/f6a798bcf975462b777fb7b385dddbc9d23a31c6/gameplay.gif?raw=true'/>
+<img src='?raw=true'/>
 
 ## Features
 The standard Minesweeper game implies a visual display of a field with mines and peaceful cells, the user's ability to interact with the field (open cells), informing the player about the win/loss, as well as displaying the number of undiscovered mines during the process.
