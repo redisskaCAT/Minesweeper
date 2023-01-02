@@ -1,14 +1,11 @@
-cmake_minimum_required(VERSION 3.5.2)
+cmake_minimum_required(VERSION 3.16)
 
 project(minesweeper)
 
-set(CMAKE_POLICY_DEFAULT_CMP0135 NEW)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_STANDARD 20)
+add_subdirectory(cpp-terminal)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror")
-
-     
 include_directories(include)
 
 
@@ -26,4 +23,6 @@ add_executable(
     files/Timer.cpp
 )
 
+target_link_libraries(snake PRIVATE cpp-terminal)
 
+add_compile_options(-Wall -Wextra -pedantic -Werror)
