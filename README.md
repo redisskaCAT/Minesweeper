@@ -9,6 +9,14 @@ The number X that opens in the cell implies that a bomb is hidden in X of the ei
 ## Showcase
 <img src='https://github.com/redisskaCAT/minesweeper/blob/17c9536b9c550c64efea53426be3587486321cd8/gameplay.gif?raw=true'/>
 
+## Installation
+````
+git clone --recurse-submodules https://github.com/redisskaCAT/Minesweeper
+cd Minesweeper
+bash setup.sh
+./minesweeper
+````
+
 ## Features
 The standard Minesweeper game implies a visual display of a field with mines and peaceful cells, the user's ability to interact with the field (open cells), informing the player about the win/loss, as well as displaying the number of undiscovered mines during the process.
 This game also implements some additional features such as:
