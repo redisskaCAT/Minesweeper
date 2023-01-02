@@ -14,7 +14,7 @@ The number X that opens in the cell implies that a bomb is hidden in X of the ei
 git clone --recurse-submodules https://github.com/redisskaCAT/Minesweeper
 cd Minesweeper
 bash setup.sh
-./minesweeper
+build/minesweeper
 ````
 
 ## Features
