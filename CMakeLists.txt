@@ -10,17 +10,17 @@ include_directories(include)
 
 
 add_executable(
-    minesweeper
-    files/Minesweeper.cpp
-    files/ConsoleDisplay.cpp
-    files/CppSweeper.cpp
-    files/Field.cpp
-    files/GameControl.cpp
-    files/Menu.cpp
-    files/Mines.cpp
-    files/Minesweeper.cpp
-    files/Record.cpp
-    files/Timer.cpp
+    minesweeper /
+    files/Minesweeper.cpp /
+    files/ConsoleDisplay.cpp /
+    files/CppSweeper.cpp /
+    files/Field.cpp /
+    files/GameControl.cpp /
+    files/Menu.cpp /
+    files/Mines.cpp /
+    files/Minesweeper.cpp /
+    files/Record.cpp /
+    files/Timer.cpp /
 )
 
 target_link_libraries(snake PRIVATE cpp-terminal)
