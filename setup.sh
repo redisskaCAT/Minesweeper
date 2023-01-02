@@ -1,5 +1,5 @@
-touch build
-cd build
-cmake ..
-cmake --build .
+mkdir build
+cd build/
+cmake ../
+make snake
 clear
