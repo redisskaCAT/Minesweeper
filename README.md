@@ -42,4 +42,4 @@ This game also implements some additional features such as:
 - Unix
 - Git
 - C++17 or higher
-- Makefile
+- Cmake
