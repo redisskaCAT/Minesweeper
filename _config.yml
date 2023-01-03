@@ -3,12 +3,12 @@ title: Minesweeper
 
 baseurl: Minesweeper
 domain: redisskacat.github.io
-url: https://redisskacat.github.io
+url: https://redisskacaat.github.io
 github:
   is_user_page: redisskaCAT
   is_project_page: redisskaCAT/Minesweeper
   repository_url: https://github.com/redisskaCAT/Minesweeper
-  owner_url: https://github.com/redisskaCATa
+  owner_url: https://github.com/redisskaCAT
   
 markdown: kramdown
 remote_theme: pages-themes/minimal
