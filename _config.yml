@@ -1,6 +1,5 @@
 
 title: Minesweeper
-description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: Minesweeper
 domain: redisskacat.github.io
