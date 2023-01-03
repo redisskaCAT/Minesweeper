@@ -6,3 +6,8 @@ github:
   is_project_page: redisskaCAT/Minesweeper
   repository_url: https://github.com/redisskaCAT/Minesweeper
   owner_url: https://github.com/redisskaCAT
+  
+markdown: kramdown
+remote_theme: pages-themes/minimal
+plugins:
+  - jekyll-remote-theme
