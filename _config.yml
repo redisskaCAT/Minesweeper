@@ -8,7 +8,7 @@ github:
   is_user_page: redisskaCAT
   is_project_page: redisskaCAT/Minesweeper
   repository_url: https://github.com/redisskaCAT/Minesweeper
-  owner_url: https://github.com/redisskaCAT
+  owner_url: https://github.com/redisskaCATa
   
 markdown: kramdown
 remote_theme: pages-themes/minimal
