@@ -1,3 +1,8 @@
 remote_theme: pages-themes/minimal@v0.2.0
 domain: redisskacat.github.io
 url: https://redisskacat.github.io
+github:
+  is_user_page: redisskaCAT
+  is_project_page: redisskaCAT/Minesweeper
+  repository_url: https://github.com/redisskaCAT/Minesweeper
+  owner_url: https://github.com/redisskaCAT
