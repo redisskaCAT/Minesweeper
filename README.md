@@ -11,7 +11,7 @@ The number X that opens in the cell implies that a bomb is hidden in X of the ei
 
 ## Installation
 ````
-git clone --recurse-submodules https://github.com/redisskaCAT/Minesweeper
+git clone https://github.com/redisskaCAT/Minesweeper
 cd Minesweeper
 bash setup.sh
 build/minesweeper
@@ -41,5 +41,5 @@ This game also implements some additional features such as:
 ## Requirements
 - Unix
 - Git
-- C++17 or higher
+- C++14 or higher
 - Cmake

@@ -149,7 +149,11 @@ void GameControl::assemblyGame(Settings settings)
 	game = new Minesweeper(field);
 	
 	display = new ConsoleDisplay(field, Coord(cols, rows), totalMines);
+<<<<<<< HEAD:src/GameControl.cpp
 
+=======
+	
+>>>>>>> 89685bbff1ef784d74689f4e676be1dcfeea247a:Src/GameControl.cpp
 	file.close();
 }
 
