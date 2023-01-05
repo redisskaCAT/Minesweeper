@@ -10,14 +10,14 @@ include_directories(include)
 
 add_executable(
     minesweeper /
-    files/Minesweeper.cpp /
-    files/ConsoleDisplay.cpp /
-    files/CppSweeper.cpp /
-    files/Field.cpp /
-    files/GameControl.cpp /
-    files/Menu.cpp /
-    files/Mines.cpp /
-    files/Minesweeper.cpp /
-    files/Record.cpp /
-    files/Timer.cpp /
+    src/Minesweeper.cpp /
+    src/ConsoleDisplay.cpp /
+    src/CppSweeper.cpp /
+    src/Field.cpp /
+    src/GameControl.cpp /
+    src/Menu.cpp /
+    src/Mines.cpp /
+    src/Minesweeper.cpp /
+    src/Record.cpp /
+    src/Timer.cpp /
 )
