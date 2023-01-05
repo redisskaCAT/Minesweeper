@@ -139,7 +139,7 @@ void GameControl::assemblyGame(Settings settings)
 	int pos = 1;
 
 	ifstream file;
-	file.open("../src/configFile.txt");
+	file.open("../files/configFile.txt");
 	
 	while(str != settings.type){ getline(file, str); pos++; }
 	file >> cols >> rows >> totalMines;
@@ -149,5 +149,7 @@ void GameControl::assemblyGame(Settings settings)
 	game = new Minesweeper(field);
 	
 	display = new ConsoleDisplay(field, Coord(cols, rows), totalMines);
+	
+	file.close();
 }
 
