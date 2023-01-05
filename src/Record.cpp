@@ -8,7 +8,7 @@ void Record::login(string username)
   string str;
   bool findUser = false;
 
-  in.open("../src/record.txt");
+  in.open("../files/record.txt");
   
   while(!in.eof())
 	{
@@ -41,10 +41,10 @@ void Record::recording(string _username, string _type, int _time)
 
   int r1 = 0, r2 = 0, r3 = 0, c = 0, tr = 0;
   
-	if ( rename( "../src/record.txt", "../src/oldrecord.txt" ) == 0 )
+	if ( rename( "../files/record.txt", "../files/oldrecord.txt" ) == 0 )
 	{
-		in.open("../src/oldrecord.txt");
-		out.open("../src/record.txt");
+		in.open("../files/oldrecord.txt");
+		out.open("../files/record.txt");
 	}
 
 	string str;
@@ -64,7 +64,7 @@ void Record::recording(string _username, string _type, int _time)
 	in.close();
 	out.close();
 	
-	if( remove("../src/oldrecord.txt") != 0 )
+	if( remove("../files/oldrecord.txt") != 0 )
       return;
         
 }
@@ -101,7 +101,7 @@ int Record::getRecord(string username, string type)
   int r1, r2, r3, c, tr;
   int rec = 0;
   
-  in.open("../src/record.txt");
+  in.open("../files/record.txt");
 
 	string str;
 	

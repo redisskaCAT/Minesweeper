@@ -17,7 +17,7 @@ void Field::filling(string type)
 	string str;
 
 	ifstream file;
-	file.open("../src/configFile.txt");
+	file.open("../files/configFile.txt");
 
 	while(str != type){ getline(file, str);}
 	getline(file, str);
@@ -40,7 +40,7 @@ void Field::filling(string type)
 			}
 		}
 	}
-	
+	file.close();
 }
 
 int Field::checkCollisions(Coord coord)
