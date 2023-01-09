@@ -7,7 +7,7 @@ The game starts at the moment when you click on one of the cells of the field. I
 The number X that opens in the cell implies that a bomb is hidden in X of the eight cells of the field surrounding it. If all except one of the cells with this numerical value are open around the cell, then an explosive object is waiting there.
 
 ## Showcase
-<img src='https://github.com/redisskaCAT/minesweeper/blob/17c9536b9c550c64efea53426be3587486321cd8/gameplay.gif?raw=true'/>
+<img src='https://github.com/redisskaCAT/Minesweeper/blob/590b5ddaea9c5e720c8692a7080536914135d2c1/files/gameplay.gif?raw=true'/>
 
 ## Installation
 ````
