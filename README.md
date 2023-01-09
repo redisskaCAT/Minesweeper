@@ -41,5 +41,5 @@ This game also implements some additional features such as:
 ## Requirements
 - Unix
 - Git
-- C++14 or higher
+- C++11 or higher
 - Cmake
